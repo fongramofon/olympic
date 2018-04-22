@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.condition {
+    background: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.conditionWord {
+    margin-left: 10px;
+}
+
+.answerBlock {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mainInput {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.primaryButton {
+    background: #0cd1c1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    margin: 0 20px;
+}
+
+.primaryButton:hover {
+    opacity: 0.7;
+}
+
+.mainImage {
+    height: auto;
+    width: 100%;
+}
